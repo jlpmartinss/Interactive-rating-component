@@ -1,0 +1,68 @@
+.panel {
+  background-color: #1e242e;
+  padding: 30px;
+  border-radius: 20px;
+  width: 40%;
+
+  &__star {
+    background-color: #272c37;
+    border-radius: 100%;
+    padding: 10px;
+  }
+  //circle: #262f38
+  //text : #77818a
+  &__title {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  &__description {
+    color: #77818a;
+    font-size: 13px;
+    font-weight: 500;
+  }
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-top: 20px;
+
+  &__button {
+    background-color: #282e38;
+    border-radius: 100%;
+    border: none;
+    width: 50px;
+    height: 50px;
+    color: #77818a;
+    font-size: large;
+    font-weight: 800;
+    cursor: pointer;
+
+    &:hover {
+      background-color: hsl(217, 12%, 63%);
+      color: #fff;
+    }
+    &:focus {
+      background-color: hsl(25, 97%, 53%);
+      color: #fff;
+    }
+  }
+}
+.submit {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+
+  &:hover {
+    color: #fff;
+    background-color: hsl(25, 97%, 53%);
+  }
+}

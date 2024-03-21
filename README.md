@@ -10,4 +10,4 @@ Installation:
 
 To Start Server:
 
-`npm start`
+`npm run dev`
